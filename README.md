@@ -22,14 +22,18 @@ A fully responsive **personal portfolio website** built using **HTML, CSS, and J
 
 ## 📸 Screenshots
 
-### 💼 Projects Section
+### 🏡 Home Section
+![Home](https://github.com/Supraja1423/PersonalPortfolio/blob/11d4c0b3381301ad555b0c5a10a127a585d886db/Assets/Screenshot%20(517).png)
+
+
+### 🚀 Projects Section
 ![Projects](https://github.com/Supraja1423/PersonalPortfolio/blob/c6fc6ce965502a0706780f170689e064a06532e1/Assets/Projects.png)
 
 
 ### 💼 Internships Section
 ![Internships](https://github.com/Supraja1423/PersonalPortfolio/blob/eb90c4642c03ac2e4115bf8cbef31c2dc6d8f518/Assets/Internship.png)
 
-### 💼 Skills Section
+### 💡 Skills Section
 ![Skills](https://github.com/Supraja1423/PersonalPortfolio/blob/d3e5ddcf6e741e9e35c863471196dda506570a75/Assets/Skills.png)
 
 ### 📞 Contact Section
