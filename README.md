@@ -26,7 +26,7 @@ A fully responsive **personal portfolio website** built using **HTML, CSS, and J
 ![Home Page](https://github.com/Supraja1423/PersonalPortfolio/blob/af6c0b7d1583815be295a9c568b715f4284348a0/Assets/Home.png)
 
 ### 💼 Projects Section
-![Projects](https://raw.githubusercontent.com/Supraja1423/PersonalPortfolio/main/images/projects.png)
+![Projects](https://github.com/Supraja1423/PersonalPortfolio/blob/c6fc6ce965502a0706780f170689e064a06532e1/Assets/Projects.png)
 
 ### 📞 Contact Section
 ![Contact](https://raw.githubusercontent.com/Supraja1423/PersonalPortfolio/main/images/contact.png)
