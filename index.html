@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Supraja Asthanaditta — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <div class="logo-circle">SA</div>
+        <div>
+          <h2>Supraja Asthanaditta</h2>
+          <p style="opacity:0.8;font-size:0.9rem">Software Developer | AI/ML, Web & Data Solutions</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#projects" class="btn">Projects</a>
+        <a href="#internships" class="btn">Internships</a>
+        <a href="#skills" class="btn">Skills</a>
+        <a href="#contact" class="btn">Contact</a>
+        <a href="assets/Supraja_Asthanaditta_Resume.pdf" class="btn primary" download>Download Resume</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-img">
+        <img src="assets/profile.jpg" alt="Supraja Asthanaditta">
+      </div>
+      <div class="hero-content">
+        <h1>Hello, I'm Supraja 👋</h1>
+        <p>Recent B.Tech graduate in CSE (AI/ML) with hands-on experience in AI, ML, and Full Stack Development. Certified in AWS, Azure, Google Cloud, and experienced in creating data-driven solutions and scalable applications.</p>
+        <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <button class="btn primary" id="contactBtn">Contact Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h3>Contact Details</h3>
+        <p>📞 <strong>Phone:</strong> <a href="tel:+918688536288" style="color:var(--accent)">+91 86885 36288</a></p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:asthanadittasupraja@gmail.com" style="color:var(--accent)">asthanadittasupraja@gmail.com</a></p>
+        <p style="margin-top:8px;font-size:0.95rem;opacity:0.9;">Also available on LinkedIn and GitHub below.</p>
+        <button class="close-btn" id="closePopup">Close</button>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Fake News Detection (NLP)</h3>
+          <p>An NLP classifier using TF-IDF and Logistic Regression to detect fake news with 92% accuracy.</p>
+          <a href="https://github.com/Supraja1423/Fake-News-Classification-Using-LSTM-Master" target="_blank">View Project</a>
+        </div>
+        <div class="card">
+          <h3>House Price Prediction</h3>
+          <p>A regression model predicting property prices based on features like location, area, and amenities.</p>
+          <a href="https://github.com/Supraja1423/Predict_housing_price-using-AI" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internships -->
+    <section id="internships">
+      <h2>Internships</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>AI Internship — Ava Intern</h3>
+          <p>Worked on AI fundamentals, ML, DL, NLP, and developed projects like House Price Prediction and Recommender Systems.</p>
+        </div>
+        <div class="card">
+          <h3>Full Stack Web Development</h3>
+          <p>Gained hands-on experience with front-end (React.js, HTML, CSS, JS) and back-end (Node.js, MySQL) development.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <div class="skills">
+          <span>Python</span><span>Flask</span><span>Machine Learning</span><span>AI</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>MySQL</span><span>GitHub</span><span>AWS</span><span>Google Cloud</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="sec5" id="contact">
+      <h1>Contact Me</h1>
+      <div class="contact-links">
+        <a href="mailto:asthanadittasupraja@gmail.com">
+          <img src="assets/gmail.jpg" alt="Email"><span>Email</span>
+        </a>
+        <a href="https://linkedin.com/in/supraja-asthanaditta-09a873256" target="_blank">
+          <img src="assets/link.jpg" alt="LinkedIn"><span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/Supraja1423" target="_blank">
+          <img src="assets/github.jpg" alt="GitHub"><span>GitHub</span>
+        </a>
+        <a href="tel:+918688536288">
+          <img src="assets/phone.jpg" alt="Phone"><span>Phone</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 Supraja Asthanaditta. All Rights Reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
